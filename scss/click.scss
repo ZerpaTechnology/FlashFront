@@ -1,0 +1,54 @@
+.click-div{
+	&>div{
+		&:click{
+
+		}
+	}
+}
+.click-a{
+	&>a{
+		&:click{
+
+		}
+	}
+}
+.click-input{
+	&>input{
+		&:click{
+
+		}
+	}
+}
+.click-button{
+	&>button{
+		&:click{
+
+		}
+	}
+}
+.click1{
+	&:click{
+
+	}
+}
+.click2{
+	&:click{
+		
+	}
+}
+
+.click3{
+	&:click{
+		
+	}
+}
+.click4{
+	&:click{
+		
+	}
+}
+.click5{
+	&:click{
+		
+	}
+}

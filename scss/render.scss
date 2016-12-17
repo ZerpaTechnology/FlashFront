@@ -1,0 +1,117 @@
+b{
+	font-weight:bold;
+}
+@mixin show($i,$f,$elem){
+	@while $i < $f{
+		#{$elem}:nth-child(#{$i}){
+			display: block;
+		}
+		$i:$i+1;
+	}
+}
+@mixin hidden($i,$f,$elem){
+	@while $i < $f{
+		#{$elem}:nth-child(#{$i}){
+			display: none;
+		}
+		$i:$i+1;
+	}
+}
+
+.d-block{
+	display:block;
+}
+sp{
+	display:block;	
+	width:10px;
+	height:5px;
+}
+
+.d-table{
+	display:table;
+	border:solid;
+}
+.d-cell{
+	display:table-cell;
+	border:solid;
+}
+.d-row{
+	display:table-row;
+	border:solid;
+}
+.inline-block>ul>li{
+	display:inline-block;
+}
+
+.inline-flex>ul>li{
+	display:inline-block;
+}
+
+
+.inline{
+	>ul{
+		padding-left:0px;
+		>li{
+		display:inline;
+		}
+	}
+}
+.d-inline{
+	display:inline;
+}
+.d-inline-block{
+	display:inline-block;
+}
+.d-inline-flex{
+	display:inline-flex;
+}
+
+
+
+
+
+
+
+.no-list-style li{
+	list-style:none;
+}
+.oauto{
+	overflow:auto;
+}
+
+.ohidden{
+	overflow:hidden;
+}
+
+.oscroll{
+	overflow:scroll;
+}
+
+.oy{
+	overflow-y:scroll;
+}
+
+.ox{
+	overflow-x:scroll;
+}
+.oyauto{
+	overflow-y:auto;
+}
+
+.oxauto{
+	overflow-x:auto;
+}
+
+.decoration-none{
+	text-decoration:none !important;
+}
+
+.decoration-overline{
+	text-decoration:overline !important;
+}
+.decoration-linethrough{
+	text-decoration:line-through !important;
+}
+.decoration-underline{
+	text-decoration:underline !important;
+}

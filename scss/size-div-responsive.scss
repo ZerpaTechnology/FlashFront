@@ -1,0 +1,45 @@
+.hauto-xs-div{
+	@media (max-width:360px){
+		&>div{
+			height: auto!important;
+		}
+		
+	}
+	
+}
+.hauto-sm-div{
+	@media (min-width:361) and (max-width:980){
+		&>div{
+			height: auto!important;
+		}
+		
+	}
+	
+}
+.hauto-md-div{
+	@media (min-width:981) and (max-width:1280){
+		&>div{
+			height: auto!important;
+		}
+		
+	}
+	
+}
+.hauto-lg-div{
+	@media (min-width:1281) and (max-width:1980){
+		&>div{
+			height: auto!important;
+		}
+		
+	}
+	
+}
+.hauto-xl-div{
+	@media (min-width:1981){
+		&>div{
+			height: auto!important;
+		}
+		
+	}
+	
+}

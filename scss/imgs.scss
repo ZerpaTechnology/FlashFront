@@ -1,0 +1,7 @@
+.bg-img1{
+  background-image: url("../img/fondo_organizacion.png");
+  background-size: 100% auto;
+  @media (max-width:360px){
+  	background-size: 600% auto;
+  }
+}
