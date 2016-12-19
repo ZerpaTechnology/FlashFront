@@ -1,20 +1,30 @@
+@import "vars.scss";
+@import "mixins.scss";
 @import "alg.scss";
 @import "marg.scss";
 @import "marg-a.scss";
 //@import "marg-div.scss";
 @import "marg-responsive.scss";
 @import "pad.scss";
+@import "pad-a.scss";
 @import "pad-responsive.scss";
 @import "position.scss";
+@import "border.scss";
+
 @import "size.scss";
+@import "size-div.scss";
+@import "size-a.scss";
+@import "size-a-img.scss";
+@import "size-ddiv.scss";
 @import "size_p.scss";
 @import "size-responsive.scss";
 @import "size-div-responsive.scss";
 @import "render.scss";
 @import "colors.scss";
 @import "font.scss";
-//import "fonts.scss"
-//@import "components.scss";
+@import "fonts.scss";
+@import "components.scss";
+
 //@import "imgs.scss"
 
 

@@ -1,3 +1,8 @@
+.pad-0-a{
+	&>a{
+		padding:0px !important;
+	}
+}
 .pad-1-a{
 	&>a{
 		padding:10px !important;

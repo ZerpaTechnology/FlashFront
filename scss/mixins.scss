@@ -1,0 +1,154 @@
+
+@mixin heights($n){
+	height:$n*10px;
+	
+
+}
+
+@mixin resp-h($ancho,$screen:true){
+	&:before{
+		content: $ancho;
+	}
+	@if $screen == true{
+		@if $ancho < $width-1 {
+			height:$width-i1;
+			
+
+		}
+		@else if $ancho >= $width-1 and $ancho < $width-2{
+			height:$width-i2;
+
+		}
+		@else if $ancho >= $width-2 and $ancho < $width-3{
+			height:$width-i3;
+		}
+		@else if $ancho >= $width-3 and $ancho < $width-4{
+			height:$width-i4;
+		}
+
+		@else if $ancho >= $width-5 and $ancho < $width-6{
+			@include heights(50)
+		}
+		@else if $ancho >= $width-6 and $ancho < $width-7{
+			height:$width-i5;
+		}
+	}
+	@else{
+		@if $ancho <= $width-1{
+			@include heights(20);//listo
+		}
+		@else if $ancho > $width-1 and $ancho < $width-2{
+			@include heights(20);
+		}
+		@else if $ancho == $width-2{
+			@include heights(50);//LISTO3
+		}
+		@else if $ancho > $width-2 and $ancho < $width-3{
+			@include heights(60);
+		}
+		@else if $ancho == $width-3{
+			@include heights(55);//LISTO4
+		}
+		@else if $ancho > $width-3 and $ancho < $width-4{
+			@include heights(60);
+		}
+		@else if $ancho == $width-4{
+			@include heights(20);//LISTO
+		}
+		@else if $ancho > $width-4 and $ancho < $width-5{
+			@include heights(60);
+		}
+		@else if $ancho == $width-5{
+			@include heights(70);
+		}
+		@else if $ancho > $width-5 and $ancho < $width-6{
+			@include heights(70);
+		}
+		@else if $ancho == $width-6{
+			@include heights(90);
+		}
+		@else if $ancho > $width-6 and $ancho < $width-7{
+			@include heights(140);
+		}
+		@else if $ancho == $width-7{
+			@include heights(140);//LISTO2
+		}
+		@else if $ancho > $width-7 {
+			@include heights(70);
+		}
+	}
+}
+
+@mixin resp-h($ancho,$screen:true){
+	&:before{
+		content: $ancho;
+	}
+	@if $screen == true{
+		@if $ancho < $width-1 {
+			height:$width-i1;
+			
+
+		}
+		@else if $ancho >= $width-1 and $ancho < $width-2{
+			height:$width-i2;
+
+		}
+		@else if $ancho >= $width-2 and $ancho < $width-3{
+			height:$width-i3;
+		}
+		@else if $ancho >= $width-3 and $ancho < $width-4{
+			height:$width-i4;
+		}
+
+		@else if $ancho >= $width-5 and $ancho < $width-6{
+			@include heights(50)
+		}
+		@else if $ancho >= $width-6 and $ancho < $width-7{
+			height:$width-i5;
+		}
+	}
+	@else{
+		@if $ancho <= $width-1{
+			@include heights(20.5);//listo
+		}
+		@else if $ancho > $width-1 and $ancho < $width-2{
+			@include heights(20);
+		}
+		@else if $ancho == $width-2{
+			@include heights(55);//LISTO3
+		}
+		@else if $ancho > $width-2 and $ancho < $width-3{
+			@include heights(60);
+		}
+		@else if $ancho == $width-3{
+			@include heights(55);//LISTO4
+		}
+		@else if $ancho > $width-3 and $ancho < $width-4{
+			@include heights(60);
+		}
+		@else if $ancho == $width-4{
+			@include heights(20);//LISTO
+		}
+		@else if $ancho > $width-4 and $ancho < $width-5{
+			@include heights(60);
+		}
+		@else if $ancho == $width-5{
+			@include heights(70);
+		}
+		@else if $ancho > $width-5 and $ancho < $width-6{
+			@include heights(70);
+		}
+		@else if $ancho == $width-6{
+			@include heights(90);
+		}
+		@else if $ancho > $width-6 and $ancho < $width-7{
+			@include heights(140);
+		}
+		@else if $ancho == $width-7{
+			@include heights(140);//LISTO2
+		}
+		@else if $ancho > $width-7 {
+			@include heights(70);
+		}
+	}
+}

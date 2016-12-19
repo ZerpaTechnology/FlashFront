@@ -43,6 +43,10 @@ sp{
 	display:inline-block;
 }
 
+.inline-block-a > a{
+	display:inline-block;
+}
+
 .inline-flex>ul>li{
 	display:inline-block;
 }

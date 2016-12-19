@@ -1,3 +1,9 @@
+
+@function rest($v1, $v2) {
+  @return $v1 - $v2;
+}
+
+
 .ff{
 	.titulo1{
 	color:white;
@@ -11,10 +17,13 @@
 	}
 	&>.btn{
 		border-radius:12px;
+		border:none;
 		background-color: #0080bb;
+		padding:5px;
+		margin:5px;
 		&:hover{
-			border:solid;
-			border-color:#ae59b9;
+			
+			box-shadow:2px 2px 5px #ae59b9;
 		}
 	}
 	&>.btn-1{
@@ -72,7 +81,47 @@
 
 	}
 	&>.slider{
-
+	@media (min-width:$width-1) and (max-width:$width-2){
+		
+		@include resp-h($width-1,false);
+	}
+	@media (min-width:$width-2 + 1px) and (max-width:$width-3){
+		
+		@include resp-h($width-2,false);
+	}
+	@media (min-width:$width-3 +1px) and (max-width:$width-4){
+	
+		@include resp-h($width-3,false);
+	}
+	@media (min-width:$width-4 + 1px) and (max-width:$width-5){
+		@include resp-h($width-5,false);	
+	}
+	@media (min-width:$width-5 + 1px) and (max-width:$width-6){
+		@include resp-h($width-6,false);	
+	}
+	@media (min-width:$width-6 + 1px) and (max-width:$width-7){
+		@include resp-h($width-7,false);	
+	}
+	background-color:$concret;
+	>.screen{
+		background-image:url("../imgs/bg1.jpg");
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position:center;
+		>.controls{
+			a{
+				&:nth-child(1){
+					float: left;
+					margin-top:45%; 
+				}
+				&:nth-child(2){
+					float: right;
+					margin-top: 45%;
+				}
+			}
+		}
+	}
+	
 	}
 	&>.slider-deslice{
 
@@ -84,7 +133,45 @@
 
 	}
 	&>.hero{
+	background-color:black;
+	@media (min-width:$width-1) and (max-width:$width-2){
+		
+		@include resp-h($width-1,false);
+	}
+	@media (min-width:$width-2 + 1px) and (max-width:$width-3){
+		
+		@include resp-h($width-2,false);
+	}
+	@media (min-width:$width-3 +1px) and (max-width:$width-4){
+	
+		@include resp-h($width-3,false);
+	}
+	@media (min-width:$width-4 + 1px) and (max-width:$width-5){
+		@include resp-h($width-5,false);	
+	}
+	@media (min-width:$width-5 + 1px) and (max-width:$width-6){
+		@include resp-h($width-6,false);	
+	}
+	@media (min-width:$width-6 + 1px) and (max-width:$width-7){
+		@include resp-h($width-7,false);	
+	}
 
+	background-image:url("../imgs/bg1.jpg");
+	background-size: 150% auto;
+	background-repeat: no-repeat;
+	background-position:center;
+	> .controls{
+		a{
+			&:nth-child(1){
+				float: left;
+				margin-top:35%; 
+			}
+			&:nth-child(2){
+				float: right;
+				margin-top: 35%;
+			}
+		}
+	}
 	}
 	&>.menu{
 
@@ -100,14 +187,41 @@
 
 		}
 	}
-	&>header{
+	header {
+		background-color:$midnight-blue;
+		.bar{
+			font-family: "ubuntu";
+
+			&>div{
+				 &:nth-child(1){ 
+				 	
+				 	color:$concret;
+				 }
+			 &:nth-child(2){
+			 	
+			 	text-align: center;
+			 	
+			 	padding: 0px;
+			 	a{
+			 		&:hover{
+			 		background-color:red !important;
+			 	}
+			 	}
+			 	
+			 	
+
+			}
+		
+		}
+	}
 
 	}
-	&>section{
+	section{
 		
 	}
-	&>footer{
+	footer{
 
 	}
+
 
 }
