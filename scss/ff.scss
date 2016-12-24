@@ -1,6 +1,8 @@
 @import "vars.scss";
 @import "mixins.scss";
 @import "alg.scss";
+@import "alg-responsive.scss";
+
 @import "marg.scss";
 @import "marg-a.scss";
 //@import "marg-div.scss";
@@ -11,7 +13,6 @@
 @import "pad-responsive.scss";
 @import "position.scss";
 @import "border.scss";
-
 @import "size.scss";
 @import "size-div.scss";
 @import "size-a.scss";
@@ -23,6 +24,7 @@
 @import "render.scss";
 @import "colors.scss";
 @import "font.scss";
+@import "font-responsive.scss";
 @import "fonts.scss";
 @import "components.scss";
 

@@ -5,108 +5,859 @@
 .black{
 	color:black;
 }
+.link-black{
+	&:link{
+		color:black;
+	}
+}
+.hover-black{
+	&:hover{
+		color:black;
+	}
+}
+
+.active-black{
+	&:active{
+		color:black;
+	}
+}
+
+.visited-black{
+	&:visited{
+		color:black;
+	}
+}
+
 .blue{
 	color:#3498db;
 }
+
+.link-blue{
+	&:link{
+	color:#3498db;
+}
+}
+
+.hover-blue{
+	&:hover{
+	color:#3498db;
+}
+}
+
+.visited-blue{
+	&:visited{
+	color:#3498db;
+}
+}
+
+.active-blue{
+	&:active{
+	color:#3498db;
+}
+}
+
 .bluelight{
 	color:#1a92b1 !important;
 }
 
+.link-bluelight{
+	&:link{
+	color:#1a92b1 !important;
+	}
+}
+
+.hover-bluelight{
+	&:hover{
+	color:#1a92b1 !important;
+	}
+}
+
+.active-bluelight{
+	&:active{
+	color:#1a92b1 !important;
+	}
+}
+
+.visited-bluelight{
+	&:visited{
+	color:#1a92b1 !important;
+	}
+}
+
+
 .bluedark{
 	color:#004368;
 }
+
+.link-bluedark{
+	&:link{
+	color:#004368;
+}
+}
+
+.hover-bluedark{
+	&:hover{
+	color:#004368;
+}
+}
+
+.active-bluedark{
+	&:active{
+	color:#004368;
+}
+}
+
+.visited-bluedark{
+	&:visited{
+	color:#004368;
+}
+}
+
+
 .pink{
 	color:#d15096;
 }
+
+.link-pink{
+	&:link{
+	color:#d15096;
+	}
+}
+
+.hover-pink{
+	&:hover{
+	color:#d15096;
+	}
+}
+
+.active-pink{
+	&:active{
+	color:#d15096;
+	}
+}
+
+.visited-pink{
+	&:visited{
+	color:#d15096;
+	}
+}
+
 .gray{
 	color:#d4d5d7;
 }
 
+.link-gray{
+	&:link{
+	color:#d4d5d7;
+}
+}
+
+.hover-gray{
+	&:hover{
+	color:#d4d5d7;
+}
+}
+
+.active-gray{
+	&:active{
+	color:#d4d5d7;
+}
+}
+
+.visited-gray{
+	&:visited{
+	color:#d4d5d7;
+}
+}
+
+
 .graylight{
 	color:#f4f6f3;
 }
+
+.link-graylight{
+	&:link{
+	color:#f4f6f3;
+}
+}
+
+.hover-graylight{
+	&:hover{
+	color:#f4f6f3;
+}
+}
+
+.active-graylight{
+	&:active{
+	color:#f4f6f3;
+}
+}
+
+.visited-graylight{
+	&:visited{
+	color:#f4f6f3;
+}
+}
+
+
 .white{
 	color:rgb(255,255,255);
 }
+
+.link-white{
+	&:link{
+	color:rgb(255,255,255);
+	}
+}
+
+.active-white{
+	&:active{
+	color:rgb(255,255,255);
+	}
+}
+
+.hover-white{
+	&:hover{
+	color:rgb(255,255,255);
+	}
+}
+
+.visited-white{
+	&:visited{
+	color:rgb(255,255,255);
+	}
+}
+
 .purple{
 	color:#712989;
 }
+
+.link-purple{
+	&:link{
+	color:#712989;
+	}
+}
+
+
+.hover-purple{
+	&:hover{
+	color:#712989;
+	}
+}
+
+
+.active-purple{
+	&:active{
+	color:#712989;
+	}
+}
+
+
+.visited-purple{
+	&:visited{
+	color:#712989;
+	}
+}
+
+
+
+
 /* PALETA FLAT*/
 //cianes
 .turquoise{
 	color:#00bd9b;
  }
+
+.link-turquoise{
+ 	&:link{
+	color:#00bd9b;
+	}
+ }
+
+.hover-turquoise{
+ 	&:hover{
+	color:#00bd9b;
+	}
+ }
+
+.active-turquoise{
+ 	&:active{
+	color:#00bd9b;
+	}
+}
+
+
+.visited-turquoise{
+ 	&:visited{
+	color:#00bd9b;
+	}
+}
+
+.link-turquoise{
+ 	&:link{
+	color:#00bd9b;
+	}
+}
 .greensea{
 	color:#00a186;
 }
+
+.link-greensea{
+	&:link{
+	color:#00a186;
+}
+}
+
+.hover-greensea{
+	&:hover{
+	color:#00a186;
+}
+}
+
+.active-greensea{
+	&:active{
+	color:#00a186;
+}
+}
+
+.visited-greensea{
+	&:visited{
+	color:#00a186;
+}
+}
+
+
 //amarillos
 .sunflower{
 	color:#ffc500;
 }
+
+.link-sunflower{
+	&:link{
+	color:#ffc500;
+	}
+}
+
+.visited-sunflower{
+	&:visited{
+	color:#ffc500;
+	}
+}
+
+.hover-sunflower{
+	&:hover{
+	color:#ffc500;
+	}
+}
+
+.active-sunflower{
+	&:active{
+	color:#ffc500;
+	}
+}
+
 .orange{
 	color:#ff9d00;
 }
+
+.link-orange{
+	&:link{
+	color:#ff9d00;
+	}
+}
+
+.active-orange{
+	&:active{
+	color:#ff9d00;
+	}
+}
+
+.hover-orange{
+	&:hover{
+	color:#ff9d00;
+	}
+}
+
+.visited-orange{
+	&:visited{
+	color:#ff9d00;
+	}
+}
+
+
 //verdes
 .emerald{
 	color:#00cd6a;
  }
+
+.link-emerald{
+ 	&:link{
+	color:#00cd6a;
+	}
+}
+
+.visited-emerald{
+ 	&:visited{
+	color:#00cd6a;
+	}
+}
+
+.active-emerald{
+ 	&:active{
+	color:#00cd6a;
+	}
+}
+
+.hover-emerald{
+ 	&:hover{
+	color:#00cd6a;
+	}
+}
+
+
 .nephritis{
 	color:#00b05c;
 }
+
+.link-nephritis{
+	&:link{
+	color:#00b05c;
+	}
+}
+.hover-nephritis{
+	&:hover{
+	color:#00b05c;
+	}
+}
+
+.active-nephritis{
+	&:active{
+	color:#00b05c;
+	}
+}
+
+.visited-nephritis{
+	&:visited{
+	color:#00b05c;
+	}
+}
+
 //narajnas
 .carrot{
 	color:#ff800a;
 }
+
+.link-carrot{
+	&:link{
+	color:#ff800a;
+	}
+}
+
+.active-carrot{
+	&:active{
+	color:#ff800a;
+	}
+}
+
+.hover-carrot{
+	&:hover{
+	color:#ff800a;
+	}
+}
+
+.visited-carrot{
+	&:visited{
+	color:#ff800a;
+	}
+}
+
+
 .pumpkin{
 	color:#f15300;
 }
+
+.link-pumpkin{
+	&:link{
+	color:#f15300;
+}
+}
+
+.hover-pumpkin{
+	&:hover{
+	color:#f15300;
+}
+}
+
+.visited-pumpkin{
+	&:visited{
+	color:#f15300;
+}
+}
+
+.active-pumpkin{
+	&:active{
+	color:#f15300;
+}
+}
+
+
 //azules
 .peterriver{
 	color:#0099de;
+}
+.link-peterriver{
+	&:link{
+	color:#0099de;
+	}
+}
+
+.hover-peterriver{
+	&:hover{
+	color:#0099de;
+	}
+}
+
+.active-peterriver{
+	&:active{
+	color:#0099de;
+	}
+}
+
+.visited-peterriver{
+	&:visited{
+	color:#0099de;
+	}
 }
 
 .belizehole{
 	color:#0080bb;
 }
+
+.link-belizehole{
+	&:link{
+	color:#0080bb;
+	}
+}
+
+.hover-belizehole{
+	&:hover{
+	color:#0080bb;
+	}
+}
+
+.active-belizehole{
+	&:active{
+	color:#0080bb;
+	}
+}
+
+.visited-belizehole{
+	&:visited{
+	color:#0080bb;
+	}
+}
+
 //rojos
 .alizarin{
 	color:#ff4b3a;
 }
+.link-alizarin{
+	&:link{
+	color:#ff4b3a;
+}
+}
+
+.active-alizarin{
+	&:active{
+	color:#ff4b3a;
+}
+}
+
+.hover-alizarin{
+	&:hover{
+	color:#ff4b3a;
+}
+}
+
+.visited-alizarin{
+	&:visited{
+	color:#ff4b3a;
+}
+}
+
 .pomegrante{
 	color:#e03626;
 }
+.link-pomegrante{
+	&:link{
+	color:#e03626;
+	}
+}
+
+.visited-pomegrante{
+	&:visited{
+	color:#e03626;
+	}
+}
+
+.hover-pomegrante{
+	&:hover{
+	color:#e03626;
+	}
+}
+
+.active-pomegrante{
+	&:active{
+	color:#e03626;
+	}
+}
+
+
 //morados
 .amethyst{
 	color:#ae59b9;
 }
+
+.link-amethyst{
+	&:link{
+	color:#ae59b9;
+	}
+}
+
+.active-amethyst{
+	&:active{
+	color:#ae59b9;
+	}
+}
+
+.hover-amethyst{
+	&:hover{
+	color:#ae59b9;
+	}
+}
+
+.visited-amethyst{
+	&:visited{
+	color:#ae59b9;
+	}
+}
+
 .wisteria{
 	color:#a142b3;
 }
+.link-wisteria{
+	&:link{
+	color:#a142b3;
+}
+}
+
+.hover-wisteria{
+	&:hover{
+	color:#a142b3;
+}
+}
+
+.active-wisteria{
+	&:active{
+	color:#a142b3;
+}
+}
+
+.visited-wisteria{
+	&:visited{
+	color:#a142b3;
+}
+}
+
 //blancos
 .cloud{
 	color:#ebf0f1;
 }
+
+.link-cloud{
+	&:link{
+	color:#ebf0f1;
+	}
+}
+.visited-cloud{
+	&:visited{
+	color:#ebf0f1;
+	}
+}
+.active-cloud{
+	&:active{
+	color:#ebf0f1;
+	}
+}
+.hover-cloud{
+	&:hover{
+	color:#ebf0f1;
+	}
+}
+
 .silver{
 	color:#bdc4c8;
 }
+
+.link-silver{
+	&:link{
+	color:#bdc4c8;
+	}
+}
+
+.hover-silver{
+	&:hover{
+	color:#bdc4c8;
+	}
+}
+
+.active-silver{
+	&:active{
+	color:#bdc4c8;
+	}
+}
+
+.visited-silver{
+	&:visited{
+	color:#bdc4c8;
+	}
+}
+
 //negros
 
 .wetasphalt{
 	color:#23485f;
 }
+
+.link-wetasphalt{
+	&:link{
+	color:#23485f;
+	}
+}
+
+.visited-wetasphalt{
+	&:visited{
+	color:#23485f;
+	}
+}
+.hover-wetasphalt{
+	&:hover{
+	color:#23485f;
+	}
+}
+.active-wetasphalt{
+	&:active{
+	color:#23485f;
+	}
+}
+
 .midnightblue{
 	color:#1e3c50;
 }
+
+.link-midnightblue{
+	&:link{
+	color:#1e3c50;
+}
+}
+
+.hover-midnightblue{
+	&:hover{
+	color:#1e3c50;
+}
+}
+
+.active-midnightblue{
+	&:active{
+	color:#1e3c50;
+}
+}
+
+.visited-midnightblue{
+	&:visited{
+	color:#1e3c50;
+}
+}
+
 //grises
 .concret{
 	color:#8fa7a7;
 }
+
+.link-concret{
+	&:link{
+	color:#8fa7a7;
+}
+}
+.visited-concret{
+	&:visited{
+	color:#8fa7a7;
+}
+}
+.hover-concret{
+	&:hover{
+	color:#8fa7a7;
+}
+}
+.active-concret{
+	&:active{
+	color:#8fa7a7;
+}
+}
+
 .asbestos{
 	color:#798d8e;
 }
 
+.link-asbestos{
+	&:link{
+	color:#798d8e;
+}
+}
+
+.active-asbestos{
+	&:active{
+	color:#798d8e;
+}
+}
+
+.hover-asbestos{
+	&:hover{
+	color:#798d8e;
+}
+}
+
+.visited-asbestos{
+	&:visited{
+	color:#798d8e;
+}
+}
+
 .greenprisma{
 	color:#a7c001 !important;
+}
+.link-greenprisma{
+	&:link{
+	color:#a7c001 !important;
+}
+}
+
+.visited-greenprisma{
+	&:visited{
+	color:#a7c001 !important;
+}
+}
+
+.hover-greenprisma{
+	&:hover{
+	color:#a7c001 !important;
+}
+}
+
+.active-greenprisma{
+	&:active{
+	color:#a7c001 !important;
+}
 }
 /*---------------------*/
 
@@ -240,12 +991,63 @@
 ._200freshfruit{
 	color:#b4ac01 !important;
 }
+.link-200freshfruit{
+	&:link{
+	color:#b4ac01 !important;
+	}
+}
+
+.hover-200freshfruit{
+	&:hover{
+	color:#b4ac01 !important;
+	}
+}
+
+.active-200freshfruit{
+	&:active{
+	color:#b4ac01 !important;
+	}
+}
+
+.visited-200freshfruit{
+	&:visited{
+	color:#b4ac01 !important;
+	}
+}
+
 .bg-200freshfruit{
 	background-color:#b4ac01 !important;
 }
+
 .loversaremyfruits{
 	color:#ecbb09 !important;
 }
+
+.link-loversaremyfruits{
+	&:link{
+	color:#ecbb09 !important;
+	}
+}
+
+.hover-loversaremyfruits{
+	&:hover{
+	color:#ecbb09 !important;
+	}
+}
+
+.active-loversaremyfruits{
+	&:active{
+	color:#ecbb09 !important;
+	}
+}
+
+.visited-loversaremyfruits{
+	&:visited{
+	color:#ecbb09 !important;
+	}
+}
+
+
 .bg-loversaremyfruits{
 	background-color:#ecbb09 !important;
 }
@@ -254,6 +1056,32 @@
 .passionforcolour{
 	color:#e86e1b !important;
 }
+
+.link-passionforcolour{
+	&:link{
+	color:#e86e1b !important;
+	}
+}
+
+.active-passionforcolour{
+	&:active{
+	color:#e86e1b !important;
+	}
+}
+
+.hover-passionforcolour{
+	&:hover{
+	color:#e86e1b !important;
+	}
+}
+
+.visited-passionforcolour{
+	&:visited{
+	color:#e86e1b !important;
+	}
+}
+
+
 .bg-passionforcolour{
 	color:#e86e1b !important;
 }
@@ -262,6 +1090,32 @@
 .fruitsofpassion{
 	color:#d41e46 !important;
 }
+
+.link-fruitsofpassion{
+	&:link{
+	color:#d41e46 !important;
+}
+}
+
+.hover-fruitsofpassion{
+	&:hover{
+	color:#d41e46 !important;
+}
+}
+
+.active-fruitsofpassion{
+	&:active{
+	color:#d41e46 !important;
+}
+}
+
+.visited-fruitsofpassion{
+	&:visited{
+	color:#d41e46 !important;
+}
+}
+
+
 .bg-fruitsofpassion{
 	background-color:#d41e46 !important;
 }
@@ -269,6 +1123,30 @@
 //negros
 .thankyouall{
 	color:#1b1521 !important;
+}
+
+.link-thankyouall{
+	&:link{
+	color:#1b1521 !important;
+	}
+}
+
+.active-thankyouall{
+	&:active{
+	color:#1b1521 !important;
+	}
+}
+
+.hover-thankyouall{
+	&:hover{
+	color:#1b1521 !important;
+	}
+}
+
+.visited-thankyouall{
+	&:visited{
+	color:#1b1521 !important;
+	}
 }
 
 .bg-thankyouall{
@@ -285,12 +1163,57 @@
 	color:#1c676c !important;
 }
 
+.link-adreamincolor{
+	&:link{
+	color:#1c676c !important;
+	}
+}
+
+.active-adreamincolor{
+	&:active{
+	color:#1c676c !important;
+	}
+}
+
+.hover-adreamincolor{
+	&:hover{
+	color:#1c676c !important;
+	}
+}
+
+.visited-adreamincolor{
+	&:visited{
+	color:#1c676c !important;
+	}
+}
+
 .bg-adreamincolor{
 	background-color:#1c676c !important;
 }
 
 .adreamingreen{
 	color:#4f964a !important;
+}
+
+.link-adreamingreen{
+	&:link{
+	color:#4f964a !important;
+}
+}
+.hover-adreamingreen{
+	&:hover{
+	color:#4f964a !important;
+}
+}
+.active-adreamingreen{
+	&:active{
+	color:#4f964a !important;
+}
+}
+.visited-adreamingreen{
+	&:visited{
+	color:#4f964a !important;
+}
 }
 
 .bg-adreamingreen{
@@ -301,18 +1224,94 @@
 	color:#88c426 !important;
 }
 
+.link-adreaminlime{
+	&:link{
+	color:#88c426 !important;
+	}
+}
+.hover-adreaminlime{
+	&:hover{
+	color:#88c426 !important;
+	}
+}
+.active-adreaminlime{
+	&:active{
+	color:#88c426 !important;
+	}
+}
+.visited-adreaminlime{
+	&:visited{
+	color:#88c426 !important;
+	}
+}
+
 .bg-adreaminlime{
 	background-color:#88c426 !important;
 }
 .adreamingrellow{
 	color:#BEF202 !important;
 }
+
+.link-adreamingrellow{
+	&:link{
+	color:#BEF202 !important;
+}
+}
+
+.hover-adreamingrellow{
+	&:hover{
+	color:#BEF202 !important;
+}
+}
+
+.active-adreamingrellow{
+	&:active{
+	color:#BEF202 !important;
+}
+}
+
+.visited-adreamingrellow{
+	&:visited{
+	color:#BEF202 !important;
+}
+}
+
 .bg-adreamingrellow{
 	background-color:#BEF202 !important;
 }
 .dreambase{
 	color:#EAFDE6 !important;
 }
+
+.link-dreambase{
+	&:link{
+	color:#EAFDE6 !important;
+	}
+}
+
+
+.visited-dreambase{
+	&:visited{
+	color:#EAFDE6 !important;
+	}
+}
+
+
+.active-dreambase{
+	&:active{
+	color:#EAFDE6 !important;
+	}
+}
+
+
+.hover-dreambase{
+	&:hover{
+	color:#EAFDE6 !important;
+	}
+}
+
+
+
 .bg-dreambase{
 	color:#EAFDE6 !important;
 }
@@ -322,12 +1321,67 @@
 .ubuntu_darkgrey{
 	color:#5d5d5d !important;
 }
+
+.link-ubuntu_darkgrey{
+	&:link{
+	color:#5d5d5d !important;
+	}
+}
+
+.hover-ubuntu_darkgrey{
+	&:hover{
+	color:#5d5d5d !important;
+	}
+}
+
+.active-ubuntu_darkgrey{
+	&:active{
+	color:#5d5d5d !important;
+	}
+}
+
+.visited-ubuntu_darkgrey{
+	&:visited{
+	color:#5d5d5d !important;
+	}
+}
+
 .bg-ubuntu_darkgrey{
 	background-color:#5d5d5d !important;
 }
 .ubuntu_lightgrey{
 	color:#888888 !important;
 }
+
+.link-ubuntu_lightgrey{
+	&:link{
+	color:#888888 !important;
+	}
+}
+
+
+.visited-ubuntu_lightgrey{
+	&:visited{
+	color:#888888 !important;
+	}
+}
+
+
+.active-ubuntu_lightgrey{
+	&:active{
+	color:#888888 !important;
+	}
+}
+
+
+.hover-ubuntu_lightgrey{
+	&:hover{
+	color:#888888 !important;
+	}
+}
+
+
+
 .bg-ubuntu_lightgrey{
 	background-color:#888888 !important;
 }
@@ -336,18 +1390,89 @@
 	color:#3b3b3b !important;
 }
 
+.link-ubuntu_inkstone{
+	&:link{
+	color:#3b3b3b !important;
+	}
+}
+
+.hover-ubuntu_inkstone{
+	&:hover{
+	color:#3b3b3b !important;
+	}
+}
+
+.active-ubuntu_inkstone{
+	&:active{
+	color:#3b3b3b !important;
+	}
+}
+
+.visited-ubuntu_inkstone{
+	&:visited{
+	color:#3b3b3b !important;
+	}
+}
+
 .bg-ubuntu_inkstone{
 	background-color:#3b3b3b !important;
 }
 .ubuntu_slate{
 	color:#5d5d5d !important;
 }
+.link-ubuntu_slate{
+	&:link{
+	color:#5d5d5d !important;
+}
+}
+
+.active-ubuntu_slate{
+	&:active{
+	color:#5d5d5d !important;
+}
+}
+
+.hover-ubuntu_slate{
+	&:hover{
+	color:#5d5d5d !important;
+}
+}
+.visited-ubuntu_slate{
+	&:visited{
+	color:#5d5d5d !important;
+}
+}
+
 .bg-ubuntu_slate{
 	background-color:#5d5d5d !important;
 }
 
 .ubuntu_graphite{
 	color:#666666 !important;
+}
+
+.link-ubuntu_graphite{
+	&:link{
+	color:#666666 !important;
+}
+}
+
+.hover-ubuntu_graphite{
+	&:hover{
+	color:#666666 !important;
+}
+}
+
+.active-ubuntu_graphite{
+	&:active{
+	color:#666666 !important;
+}
+}
+
+.visited-ubuntu_graphite{
+	&:visited{
+	color:#666666 !important;
+}
 }
 
 .bg-ubuntu_graphite{
@@ -358,6 +1483,29 @@
 	color:#888888 !important;
 }
 
+.link-ubuntu_ash{
+	&:link{
+	color:#888888 !important;
+}
+}
+
+.hover-ubuntu_ash{
+	&:hover{
+	color:#888888 !important;
+}
+}
+
+.active-ubuntu_ash{
+	&:active{
+	color:#888888 !important;
+}
+}
+.visited-ubuntu_ash{
+	&:visited{
+	color:#888888 !important;
+}
+}
+
 .bg-ubuntu_ash{
 	background-color:#888888 !important;
 }
@@ -365,6 +1513,31 @@
 .ubuntu_slik{
 	color:#cdcdcd !important;
 }
+
+.link-ubuntu_slik{
+	&:link{
+	color:#cdcdcd !important;
+}
+}
+
+.hover-ubuntu_slik{
+	&:hover{
+	color:#cdcdcd !important;
+}
+}
+
+.active-ubuntu_slik{
+	&:active{
+	color:#cdcdcd !important;
+}
+}
+
+.visited-ubuntu_slik{
+	&:visited{
+	color:#cdcdcd !important;
+}
+}
+
 .bg-ubuntu_slik{
 	background-color:#cdcdcd !important;
 }
@@ -373,6 +1546,30 @@
 
 .ubuntu_porcelain{
 	color:#f7f7f7 !important;
+ }
+
+ .link-ubuntu_porcelain{
+ 	&:link{
+	color:#f7f7f7 !important;
+	}
+ }
+
+ .hover-ubuntu_porcelain{
+ 	&:hover{
+	color:#f7f7f7 !important;
+	}
+ }
+
+ .active-ubuntu_porcelain{
+ 	&:active{
+	color:#f7f7f7 !important;
+	}
+ }
+
+ .visited-ubuntu_porcelain{
+ 	&:visited{
+	color:#f7f7f7 !important;
+	}
  }
 
 .bg-ubuntu_porcelain{
@@ -384,12 +1581,60 @@
 .ubuntu_red{
 	color:#fd494a !important;
 }
+
+.link-ubuntu_red{
+	&:link{
+	color:#fd494a !important;
+	}
+}
+.active-ubuntu_red{
+	&:active{
+	color:#fd494a !important;
+	}
+}
+.hover-ubuntu_red{
+	&:hover{
+	color:#fd494a !important;
+	}
+}
+.visited-ubuntu_red{
+	&:visited{
+	color:#fd494a !important;
+	}
+}
+
 .bg-ubuntu_red{
 	background-color:#fd494a !important;
 }
 .ubuntu_negativered{
 	color:#ed3247 !important;
 }
+
+.link-ubuntu_negativered{
+	&:link{
+	color:#ed3247 !important;
+}
+}
+
+.active-ubuntu_negativered{
+	&:active{
+	color:#ed3247 !important;
+}
+}
+
+.visited-ubuntu_negativered{
+	&:visited{
+	color:#ed3247 !important;
+}
+}
+
+.hover-ubuntu_negativered{
+	&:hover{
+	color:#ed3247 !important;
+}
+}
+
+
 .bg-ubuntu_negativered{
 	background-color:#ed3247 !important;
 }
@@ -398,25 +1643,148 @@
 .ubuntu_orange{
 	color:#de4815 !important;
 }
+
+.link-ubuntu_orange{
+	&:link{
+	color:#de4815 !important;
+	}
+}
+
+.hover-ubuntu_orange{
+	&:hover{
+	color:#de4815 !important;
+	}
+}
+
+.active-ubuntu_orange{
+	&:active{
+	color:#de4815 !important;
+	}
+}
+.visited-ubuntu_orange{
+	&:visited{
+	color:#de4815 !important;
+	}
+}
+
 .bg-ubuntu_orange{
 	background-color:#de4815 !important;
 }
 .ubuntu_focusorange{
 	color:#ea5421 !important;
 }
+
+.link-ubuntu_focusorange{
+	&:link{
+	color:#ea5421 !important;
+}
+}
+
+.visited-ubuntu_focusorange{
+	&:visited{
+	color:#ea5421 !important;
+}
+}
+
+.active-ubuntu_focusorange{
+	&:active{
+	color:#ea5421 !important;
+}
+}
+
+.hover-ubuntu_focusorange{
+	&:hover{
+	color:#ea5421 !important;
+}
+}
+
+
 .ubuntu_focusorange{
 	background-color:#ea5421 !important;
 }
+
+.link-ubuntu_focusorange{
+	&:link{
+	background-color:#ea5421 !important;
+	}
+}
+
+.hover-ubuntu_focusorange{
+	&:hover{
+	background-color:#ea5421 !important;
+	}
+}
+
+.active-ubuntu_focusorange{
+	&:active{
+	background-color:#ea5421 !important;
+	}
+}
+
+.visited-ubuntu_focusorange{
+	&:visited{
+	background-color:#ea5421 !important;
+	}
+}
+
 //verdes
 .ubuntu_green{
 	color:#3fb14f !important;
 }
+
+.link-ubuntu_green{
+	&:link{
+	color:#3fb14f !important;
+	}
+}
+.hover-ubuntu_green{
+	&:hover{
+	color:#3fb14f !important;
+	}
+}
+.active-ubuntu_green{
+	&:active{
+	color:#3fb14f !important;
+	}
+}
+.visited-ubuntu_green{
+	&:visited{
+	color:#3fb14f !important;
+	}
+}
+
 .bg-ubuntu_green{
 	background-color:#3fb14f !important;
 }
+
 .ubuntu_positivegreen{
 	color:#3fb350 !important;
 }
+
+.link-ubuntu_positivegreen{
+	&:link{
+	color:#3fb350 !important;
+	}
+}
+
+.hover-ubuntu_positivegreen{
+	&:hover{
+	color:#3fb350 !important;
+	}
+}
+
+.active-ubuntu_positivegreen{
+	&:active{
+	color:#3fb350 !important;
+	}
+}
+
+.visited-ubuntu_positivegreen{
+	&:visited{
+	color:#3fb350 !important;
+	}
+}
+
 .bg-ubuntu_positivegreen{
 	background-color:#3fb350 !important;
 }
@@ -425,6 +1793,31 @@
 .ubuntu_yellow{
 	color:#f89b0f !important;
 }
+
+.link-ubuntu_yellow{
+	&:link{
+	color:#f89b0f !important;
+}
+}
+
+.visited-ubuntu_yellow{
+	&:visited{
+	color:#f89b0f !important;
+}
+}
+
+.hover-ubuntu_yellow{
+	&:hover{
+	color:#f89b0f !important;
+}
+}
+
+.active-ubuntu_yellow{
+	&:active{
+	color:#f89b0f !important;
+}
+}
+
 .bg-ubuntu_yellow{
 	background-color:#f89b0f !important;
 }
@@ -433,12 +1826,61 @@
 .ubuntu_blue{
 	color:#1ab6ef !important;
 }
+
+.link-ubuntu_blue{
+	&:link{
+	color:#1ab6ef !important;
+	}
+}
+
+.hover-ubuntu_blue{
+	&:hover{
+	color:#1ab6ef !important;
+	}
+}
+
+.active-ubuntu_blue{
+	&:active{
+	color:#1ab6ef !important;
+	}
+}
+.visited-ubuntu_blue{
+	&:visited{
+	color:#1ab6ef !important;
+	}
+}
+
 .bg-ubuntu_blue{
 	background-color:#1ab6ef !important;
 }
+
 .ubuntu_activityblue{
 	color:#19b6ed !important;
 }
+
+.link-ubuntu_activityblue{
+	&:link{
+	color:#19b6ed !important;
+}
+}
+
+.hover-ubuntu_activityblue{
+	&:hover{
+	color:#19b6ed !important;
+}
+}
+
+.visited-ubuntu_activityblue{
+	&:visited{
+	color:#19b6ed !important;
+}
+}
+.active-ubuntu_activityblue{
+	&:active{
+	color:#19b6ed !important;
+}
+}
+
 .bg-ubuntu_activityblue{
 	background-color:#19b6ed !important;
 }
@@ -447,6 +1889,31 @@
 .ubuntu_purple{
 	color:#762572 !important;
 }
+
+.link-ubuntu_purple{
+	&:link{
+	color:#762572 !important;
+}
+}
+
+.hover-ubuntu_purple{
+	&:hover{
+	color:#762572 !important;
+}
+}
+
+.active-ubuntu_purple{
+	&:active{
+	color:#762572 !important;
+}
+}
+
+.visited-ubuntu_purple{
+	&:visited{
+	color:#762572 !important;
+}
+}
+
 .bg-ubuntu_purple{
 	background-color:#762572 !important;
 }
@@ -454,6 +1921,33 @@
 .ubuntu_jet{
 	color:#111111 !important;
 }
+
+.link-ubuntu_jet{
+	&:link{
+	color:#111111 !important;
+}
+}
+
+.visited-ubuntu_jet{
+	&:visited{
+	color:#111111 !important;
+}
+}
+
+
+.hover-ubuntu_jet{
+	&:hover{
+	color:#111111 !important;
+}
+}
+
+
+.active-ubuntu_jet{
+	&:active{
+	color:#111111 !important;
+}
+}
+
 .bg-ubuntu_jet{
 	background-color:#111111 !important;
 }
