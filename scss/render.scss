@@ -107,30 +107,30 @@ sp{
 	list-style:none;
 }
 .oauto{
-	overflow:auto;
+	overflow:auto !important;
 }
 
 .ohidden{
-	overflow:hidden;
+	overflow:hidden !important;
 }
 
 .oscroll{
-	overflow:scroll;
+	overflow:scroll !important;
 }
 
 .oy{
-	overflow-y:scroll;
+	overflow-y:scroll !important;
 }
 
 .ox{
-	overflow-x:scroll;
+	overflow-x:scroll !important;
 }
 .oyauto{
-	overflow-y:auto;
+	overflow-y:auto !important;
 }
 
 .oxauto{
-	overflow-x:auto;
+	overflow-x:auto !important;
 }
 
 .decoration-none{
