@@ -14015,6 +14015,9 @@ sp {
 .hover-black:hover {
   color: black; }
 
+.hover-bg-black:hover {
+  background-color: black; }
+
 .active-black:active {
   color: black; }
 
@@ -14029,6 +14032,9 @@ sp {
 
 .hover-blue:hover {
   color: #3498db; }
+
+.hover-bg-blue:hover {
+  background-color: #3498db; }
 
 .visited-blue:visited {
   color: #3498db; }
@@ -14045,6 +14051,9 @@ sp {
 .hover-bluelight:hover {
   color: #1a92b1 !important; }
 
+.hover-bg-bluelight:hover {
+  background-color: #1a92b1 !important; }
+
 .active-bluelight:active {
   color: #1a92b1 !important; }
 
@@ -14059,6 +14068,9 @@ sp {
 
 .hover-bluedark:hover {
   color: #004368; }
+
+.hover-bg-bluedark:hover {
+  background-color: #004368; }
 
 .active-bluedark:active {
   color: #004368; }
@@ -14075,6 +14087,9 @@ sp {
 .hover-pink:hover {
   color: #d15096; }
 
+.hover-bg-pink:hover {
+  background-color: #d15096; }
+
 .active-pink:active {
   color: #d15096; }
 
@@ -14090,6 +14105,9 @@ sp {
 .hover-gray:hover {
   color: #d4d5d7; }
 
+.hover-bg-gray:hover {
+  background-color: #d4d5d7; }
+
 .active-gray:active {
   color: #d4d5d7; }
 
@@ -14104,6 +14122,9 @@ sp {
 
 .hover-graylight:hover {
   color: #f4f6f3; }
+
+.hover-bg-graylight:hover {
+  background-color: #f4f6f3; }
 
 .active-graylight:active {
   color: #f4f6f3; }
@@ -14123,6 +14144,9 @@ sp {
 .hover-white:hover {
   color: white; }
 
+.hover-bg-white:hover {
+  background-color: white; }
+
 .visited-white:visited {
   color: white; }
 
@@ -14134,6 +14158,9 @@ sp {
 
 .hover-purple:hover {
   color: #712989; }
+
+.hover-bg-purple:hover {
+  background-color: #712989; }
 
 .active-purple:active {
   color: #712989; }
@@ -14150,6 +14177,9 @@ sp {
 
 .hover-turquoise:hover {
   color: #00bd9b; }
+
+.hover-bg-turquoise:hover {
+  background-color: #00bd9b; }
 
 .active-turquoise:active {
   color: #00bd9b; }
@@ -14169,6 +14199,9 @@ sp {
 .hover-greensea:hover {
   color: #00a186; }
 
+.hover-bg-greensea:hover {
+  background-color: #00a186; }
+
 .active-greensea:active {
   color: #00a186; }
 
@@ -14187,6 +14220,9 @@ sp {
 .hover-sunflower:hover {
   color: #ffc500; }
 
+.hover-bg-sunflower:hover {
+  background-color: #ffc500; }
+
 .active-sunflower:active {
   color: #ffc500; }
 
@@ -14201,6 +14237,9 @@ sp {
 
 .hover-orange:hover {
   color: #ff9d00; }
+
+.hover-bg-orange:hover {
+  background-color: #ff9d00; }
 
 .visited-orange:visited {
   color: #ff9d00; }
@@ -14220,6 +14259,9 @@ sp {
 .hover-emerald:hover {
   color: #00cd6a; }
 
+.hover-bg-emerald:hover {
+  background-color: #00cd6a; }
+
 .nephritis {
   color: #00b05c; }
 
@@ -14228,6 +14270,9 @@ sp {
 
 .hover-nephritis:hover {
   color: #00b05c; }
+
+.hover-bg-nephritis:hover {
+  background-color: #00b05c; }
 
 .active-nephritis:active {
   color: #00b05c; }
@@ -14247,6 +14292,9 @@ sp {
 .hover-carrot:hover {
   color: #ff800a; }
 
+.hover-bg-carrot:hover {
+  background-color: #ff800a; }
+
 .visited-carrot:visited {
   color: #ff800a; }
 
@@ -14258,6 +14306,9 @@ sp {
 
 .hover-pumpkin:hover {
   color: #f15300; }
+
+.hover-bg-pumpkin:hover {
+  background-color: #f15300; }
 
 .visited-pumpkin:visited {
   color: #f15300; }
@@ -14274,6 +14325,9 @@ sp {
 .hover-peterriver:hover {
   color: #0099de; }
 
+.hover-bg-peterriver:hover {
+  background-color: #0099de; }
+
 .active-peterriver:active {
   color: #0099de; }
 
@@ -14288,6 +14342,9 @@ sp {
 
 .hover-belizehole:hover {
   color: #0080bb; }
+
+.hover-bg-belizehole:hover {
+  background-color: #0080bb; }
 
 .active-belizehole:active {
   color: #0080bb; }
@@ -14307,6 +14364,9 @@ sp {
 .hover-alizarin:hover {
   color: #ff4b3a; }
 
+.hover-bg-alizarin:hover {
+  background-color: #ff4b3a; }
+
 .visited-alizarin:visited {
   color: #ff4b3a; }
 
@@ -14320,6 +14380,9 @@ sp {
   color: #e03626; }
 
 .hover-pomegrante:hover {
+  color: #e03626; }
+
+.hover-bg-pomegrante:hover {
   color: #e03626; }
 
 .active-pomegrante:active {
@@ -14337,6 +14400,9 @@ sp {
 .hover-amethyst:hover {
   color: #ae59b9; }
 
+.hover-bg-amethyst:hover {
+  background-color: #ae59b9; }
+
 .visited-amethyst:visited {
   color: #ae59b9; }
 
@@ -14348,6 +14414,9 @@ sp {
 
 .hover-wisteria:hover {
   color: #a142b3; }
+
+.hover-bg-wisteria:hover {
+  background-color: #a142b3; }
 
 .active-wisteria:active {
   color: #a142b3; }
@@ -14370,6 +14439,9 @@ sp {
 .hover-cloud:hover {
   color: #ebf0f1; }
 
+.hover-bg-cloud:hover {
+  background-color: #ebf0f1; }
+
 .silver {
   color: #bdc4c8; }
 
@@ -14378,6 +14450,9 @@ sp {
 
 .hover-silver:hover {
   color: #bdc4c8; }
+
+.hover-bg-silver:hover {
+  background-color: #bdc4c8; }
 
 .active-silver:active {
   color: #bdc4c8; }
@@ -14397,6 +14472,9 @@ sp {
 .hover-wetasphalt:hover {
   color: #23485f; }
 
+.hover-bg-wetasphalt:hover {
+  background-color: #23485f; }
+
 .active-wetasphalt:active {
   color: #23485f; }
 
@@ -14408,6 +14486,9 @@ sp {
 
 .hover-midnightblue:hover {
   color: #1e3c50; }
+
+.hover-bg-midnightblue:hover {
+  background-color: #1e3c50; }
 
 .active-midnightblue:active {
   color: #1e3c50; }
@@ -14427,6 +14508,9 @@ sp {
 .hover-concret:hover {
   color: #8fa7a7; }
 
+.hover-bg-concret:hover {
+  background-color: #8fa7a7; }
+
 .active-concret:active {
   color: #8fa7a7; }
 
@@ -14442,6 +14526,9 @@ sp {
 .hover-asbestos:hover {
   color: #798d8e; }
 
+.hover-bg-asbestos:hover {
+  background-color: #798d8e; }
+
 .visited-asbestos:visited {
   color: #798d8e; }
 
@@ -14456,6 +14543,9 @@ sp {
 
 .hover-greenprisma:hover {
   color: #a7c001 !important; }
+
+.hover-bg-greenprisma:hover {
+  background-color: #a7c001 !important; }
 
 .active-greenprisma:active {
   color: #a7c001 !important; }
@@ -14570,6 +14660,9 @@ sp {
 .hover-200freshfruit:hover {
   color: #b4ac01 !important; }
 
+.hover-bg-200freshfruit:hover {
+  background-color: #b4ac01 !important; }
+
 .active-200freshfruit:active {
   color: #b4ac01 !important; }
 
@@ -14587,6 +14680,9 @@ sp {
 
 .hover-loversaremyfruits:hover {
   color: #ecbb09 !important; }
+
+.hover-bg-loversaremyfruits:hover {
+  background-color: #ecbb09 !important; }
 
 .active-loversaremyfruits:active {
   color: #ecbb09 !important; }
@@ -14609,6 +14705,9 @@ sp {
 .hover-passionforcolour:hover {
   color: #e86e1b !important; }
 
+.hover-bg-passionforcolour:hover {
+  background-color: #e86e1b !important; }
+
 .visited-passionforcolour:visited {
   color: #e86e1b !important; }
 
@@ -14623,6 +14722,9 @@ sp {
 
 .hover-fruitsofpassion:hover {
   color: #d41e46 !important; }
+
+.hover-bg-fruitsofpassion:hover {
+  background-color: #d41e46 !important; }
 
 .active-fruitsofpassion:active {
   color: #d41e46 !important; }
@@ -14645,6 +14747,9 @@ sp {
 .hover-thankyouall:hover {
   color: #1b1521 !important; }
 
+.hover-bg-thankyouall:hover {
+  background-color: #1b1521 !important; }
+
 .visited-thankyouall:visited {
   color: #1b1521 !important; }
 
@@ -14663,6 +14768,9 @@ sp {
 .hover-adreamincolor:hover {
   color: #1c676c !important; }
 
+.hover-bg-adreamincolor:hover {
+  background-color: #1c676c !important; }
+
 .visited-adreamincolor:visited {
   color: #1c676c !important; }
 
@@ -14677,6 +14785,9 @@ sp {
 
 .hover-adreamingreen:hover {
   color: #4f964a !important; }
+
+.hover-bg-adreamingreen:hover {
+  background-color: #4f964a !important; }
 
 .active-adreamingreen:active {
   color: #4f964a !important; }
@@ -14696,6 +14807,9 @@ sp {
 .hover-adreaminlime:hover {
   color: #88c426 !important; }
 
+.hover-bg-adreaminlime:hover {
+  background-color: #88c426 !important; }
+
 .active-adreaminlime:active {
   color: #88c426 !important; }
 
@@ -14713,6 +14827,9 @@ sp {
 
 .hover-adreamingrellow:hover {
   color: #BEF202 !important; }
+
+.hover-bg-adreamingrellow:hover {
+  background-color: #BEF202 !important; }
 
 .active-adreamingrellow:active {
   color: #BEF202 !important; }
@@ -14738,6 +14855,9 @@ sp {
 .hover-dreambase:hover {
   color: #EAFDE6 !important; }
 
+.hover-bg-dreambase:hover {
+  background-color: #EAFDE6 !important; }
+
 .bg-dreambase {
   color: #EAFDE6 !important; }
 
@@ -14749,6 +14869,9 @@ sp {
 
 .hover-ubuntu_darkgrey:hover {
   color: #5d5d5d !important; }
+
+.hover-bg-ubuntu_darkgrey:hover {
+  background-color: #5d5d5d !important; }
 
 .active-ubuntu_darkgrey:active {
   color: #5d5d5d !important; }
@@ -14774,6 +14897,9 @@ sp {
 .hover-ubuntu_lightgrey:hover {
   color: #888888 !important; }
 
+.hover-bg-ubuntu_lightgrey:hover {
+  background-color: #888888 !important; }
+
 .bg-ubuntu_lightgrey {
   background-color: #888888 !important; }
 
@@ -14785,6 +14911,9 @@ sp {
 
 .hover-ubuntu_inkstone:hover {
   color: #3b3b3b !important; }
+
+.hover-bg-ubuntu_inkstone:hover {
+  background-color: #3b3b3b !important; }
 
 .active-ubuntu_inkstone:active {
   color: #3b3b3b !important; }
@@ -14807,6 +14936,9 @@ sp {
 .hover-ubuntu_slate:hover {
   color: #5d5d5d !important; }
 
+.hover-bg-ubuntu_slate:hover {
+  background-color: #5d5d5d !important; }
+
 .visited-ubuntu_slate:visited {
   color: #5d5d5d !important; }
 
@@ -14821,6 +14953,9 @@ sp {
 
 .hover-ubuntu_graphite:hover {
   color: #666666 !important; }
+
+.hover-bg-ubuntu_graphite:hover {
+  background-color: #666666 !important; }
 
 .active-ubuntu_graphite:active {
   color: #666666 !important; }
@@ -14840,6 +14975,9 @@ sp {
 .hover-ubuntu_ash:hover {
   color: #888888 !important; }
 
+.hover-bg-ubuntu_ash:hover {
+  background-color: #888888 !important; }
+
 .active-ubuntu_ash:active {
   color: #888888 !important; }
 
@@ -14858,6 +14996,9 @@ sp {
 .hover-ubuntu_slik:hover {
   color: #cdcdcd !important; }
 
+.hover-bg-ubuntu_slik:hover {
+  background-color: #cdcdcd !important; }
+
 .active-ubuntu_slik:active {
   color: #cdcdcd !important; }
 
@@ -14875,6 +15016,9 @@ sp {
 
 .hover-ubuntu_porcelain:hover {
   color: #f7f7f7 !important; }
+
+.hover-bg-ubuntu_porcelain:hover {
+  background-color: #f7f7f7 !important; }
 
 .active-ubuntu_porcelain:active {
   color: #f7f7f7 !important; }
@@ -14897,6 +15041,9 @@ sp {
 .hover-ubuntu_red:hover {
   color: #fd494a !important; }
 
+.hover-bg-ubuntu_red:hover {
+  background-color: #fd494a !important; }
+
 .visited-ubuntu_red:visited {
   color: #fd494a !important; }
 
@@ -14918,6 +15065,9 @@ sp {
 .hover-ubuntu_negativered:hover {
   color: #ed3247 !important; }
 
+.hover-bg-ubuntu_negativered:hover {
+  background-color: #ed3247 !important; }
+
 .bg-ubuntu_negativered {
   background-color: #ed3247 !important; }
 
@@ -14929,6 +15079,9 @@ sp {
 
 .hover-ubuntu_orange:hover {
   color: #de4815 !important; }
+
+.hover-bg-ubuntu_orange:hover {
+  background-color: #de4815 !important; }
 
 .active-ubuntu_orange:active {
   color: #de4815 !important; }
@@ -14954,6 +15107,9 @@ sp {
 .hover-ubuntu_focusorange:hover {
   color: #ea5421 !important; }
 
+.hover-bg-ubuntu_focusorange:hover {
+  background-color: #ea5421 !important; }
+
 .ubuntu_focusorange {
   background-color: #ea5421 !important; }
 
@@ -14961,6 +15117,9 @@ sp {
   background-color: #ea5421 !important; }
 
 .hover-ubuntu_focusorange:hover {
+  color: #ea5421 !important; }
+
+.hover-bg-ubuntu_focusorange:hover {
   background-color: #ea5421 !important; }
 
 .active-ubuntu_focusorange:active {
@@ -14977,6 +15136,9 @@ sp {
 
 .hover-ubuntu_green:hover {
   color: #3fb14f !important; }
+
+.hover-bg-ubuntu_green:hover {
+  background-color: #3fb14f !important; }
 
 .active-ubuntu_green:active {
   color: #3fb14f !important; }
@@ -14995,6 +15157,9 @@ sp {
 
 .hover-ubuntu_positivegreen:hover {
   color: #3fb350 !important; }
+
+.hover-bg-ubuntu_positivegreen:hover {
+  background-color: #3fb350 !important; }
 
 .active-ubuntu_positivegreen:active {
   color: #3fb350 !important; }
@@ -15017,6 +15182,9 @@ sp {
 .hover-ubuntu_yellow:hover {
   color: #f89b0f !important; }
 
+.hover-bg-ubuntu_yellow:hover {
+  background-color: #f89b0f !important; }
+
 .active-ubuntu_yellow:active {
   color: #f89b0f !important; }
 
@@ -15031,6 +15199,9 @@ sp {
 
 .hover-ubuntu_blue:hover {
   color: #1ab6ef !important; }
+
+.hover-bg-ubuntu_blue:hover {
+  background-color: #1ab6ef !important; }
 
 .active-ubuntu_blue:active {
   color: #1ab6ef !important; }
@@ -15050,6 +15221,9 @@ sp {
 .hover-ubuntu_activityblue:hover {
   color: #19b6ed !important; }
 
+.hover-bg-ubuntu_activityblue:hover {
+  background-color: #19b6ed !important; }
+
 .visited-ubuntu_activityblue:visited {
   color: #19b6ed !important; }
 
@@ -15067,6 +15241,9 @@ sp {
 
 .hover-ubuntu_purple:hover {
   color: #762572 !important; }
+
+.hover-bg-ubuntu_purple:hover {
+  background-color: #762572 !important; }
 
 .active-ubuntu_purple:active {
   color: #762572 !important; }
@@ -15088,6 +15265,9 @@ sp {
 
 .hover-ubuntu_jet:hover {
   color: #111111 !important; }
+
+.hover-bg-ubuntu_jet:hover {
+  background-color: #111111 !important; }
 
 .active-ubuntu_jet:active {
   color: #111111 !important; }
@@ -15764,6 +15944,7 @@ sp {
   font-family: "gothamMedium";
   font-weight: normal;
   src: url("../fonts/gotham/GothamRoundedMedium.ttf"); }
+
 .font-gothamMedium {
   font-family: "gothamMedium" !important; }
 
@@ -15911,5 +16092,3 @@ sp {
       padding: 0px; }
       .ff header .bar > div:nth-child(2) a:hover {
         background-color: red !important; }
-
-/*# sourceMappingURL=ff.css.map */

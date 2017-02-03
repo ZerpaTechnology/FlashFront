@@ -15,6 +15,11 @@
 		color:black;
 	}
 }
+.hover-bg-black{
+	&:hover{
+		background-color:black;
+	}
+}
 
 .active-black{
 	&:active{
@@ -43,6 +48,11 @@
 	color:#3498db;
 }
 }
+.hover-bg-blue{
+	&:hover{
+	background-color:#3498db;
+}
+}
 
 .visited-blue{
 	&:visited{
@@ -69,6 +79,12 @@
 .hover-bluelight{
 	&:hover{
 	color:#1a92b1 !important;
+	}
+}
+
+.hover-bg-bluelight{
+	&:hover{
+	background-color:#1a92b1 !important;
 	}
 }
 
@@ -101,6 +117,12 @@
 }
 }
 
+.hover-bg-bluedark{
+	&:hover{
+	background-color:#004368;
+}
+}
+
 .active-bluedark{
 	&:active{
 	color:#004368;
@@ -127,6 +149,12 @@
 .hover-pink{
 	&:hover{
 	color:#d15096;
+	}
+}
+
+.hover-bg-pink{
+	&:hover{
+	background-color:#d15096;
 	}
 }
 
@@ -158,6 +186,12 @@
 }
 }
 
+.hover-bg-gray{
+	&:hover{
+	background-color:#d4d5d7;
+}
+}
+
 .active-gray{
 	&:active{
 	color:#d4d5d7;
@@ -184,6 +218,11 @@
 .hover-graylight{
 	&:hover{
 	color:#f4f6f3;
+}
+}
+.hover-bg-graylight{
+	&:hover{
+	background-color:#f4f6f3;
 }
 }
 
@@ -222,6 +261,12 @@
 	}
 }
 
+.hover-bg-white{
+	&:hover{
+	background-color:rgb(255,255,255);
+	}
+}
+
 .visited-white{
 	&:visited{
 	color:rgb(255,255,255);
@@ -242,6 +287,12 @@
 .hover-purple{
 	&:hover{
 	color:#712989;
+	}
+}
+
+.hover-bg-purple{
+	&:hover{
+	background-color:#712989;
 	}
 }
 
@@ -279,6 +330,11 @@
 	color:#00bd9b;
 	}
  }
+ .hover-bg-turquoise{
+ 	&:hover{
+	background-color:#00bd9b;
+	}
+ }
 
 .active-turquoise{
  	&:active{
@@ -311,6 +367,11 @@
 .hover-greensea{
 	&:hover{
 	color:#00a186;
+}
+}
+.hover-bg-greensea{
+	&:hover{
+	background-color:#00a186;
 }
 }
 
@@ -350,6 +411,12 @@
 	}
 }
 
+.hover-bg-sunflower{
+	&:hover{
+	background-color:#ffc500;
+	}
+}
+
 .active-sunflower{
 	&:active{
 	color:#ffc500;
@@ -375,6 +442,12 @@
 .hover-orange{
 	&:hover{
 	color:#ff9d00;
+	}
+}
+
+.hover-bg-orange{
+	&:hover{
+	background-color:#ff9d00;
 	}
 }
 
@@ -414,6 +487,12 @@
 	}
 }
 
+.hover-bg-emerald{
+ 	&:hover{
+	background-color:#00cd6a;
+	}
+}
+
 
 .nephritis{
 	color:#00b05c;
@@ -427,6 +506,12 @@
 .hover-nephritis{
 	&:hover{
 	color:#00b05c;
+	}
+}
+
+.hover-bg-nephritis{
+	&:hover{
+	background-color:#00b05c;
 	}
 }
 
@@ -464,6 +549,11 @@
 	color:#ff800a;
 	}
 }
+.hover-bg-carrot{
+	&:hover{
+	background-color:#ff800a;
+	}
+}
 
 .visited-carrot{
 	&:visited{
@@ -487,6 +577,13 @@
 	color:#f15300;
 }
 }
+
+.hover-bg-pumpkin{
+	&:hover{
+	background-color:#f15300;
+}
+}
+
 
 .visited-pumpkin{
 	&:visited{
@@ -517,6 +614,12 @@
 	}
 }
 
+.hover-bg-peterriver{
+	&:hover{
+	background-color:#0099de;
+	}
+}
+
 .active-peterriver{
 	&:active{
 	color:#0099de;
@@ -544,6 +647,13 @@
 	color:#0080bb;
 	}
 }
+
+.hover-bg-belizehole{
+	&:hover{
+	background-color:#0080bb;
+	}
+}
+
 
 .active-belizehole{
 	&:active{
@@ -579,6 +689,12 @@
 }
 }
 
+.hover-bg-alizarin{
+	&:hover{
+	background-color:#ff4b3a;
+}
+}
+
 .visited-alizarin{
 	&:visited{
 	color:#ff4b3a;
@@ -601,6 +717,12 @@
 }
 
 .hover-pomegrante{
+	&:hover{
+	color:#e03626;
+	}
+}
+
+.hover-bg-pomegrante{
 	&:hover{
 	color:#e03626;
 	}
@@ -636,6 +758,12 @@
 	}
 }
 
+.hover-bg-amethyst{
+	&:hover{
+	background-color:#ae59b9;
+	}
+}
+
 .visited-amethyst{
 	&:visited{
 	color:#ae59b9;
@@ -654,6 +782,12 @@
 .hover-wisteria{
 	&:hover{
 	color:#a142b3;
+}
+}
+
+.hover-bg-wisteria{
+	&:hover{
+	background-color:#a142b3;
 }
 }
 
@@ -695,6 +829,12 @@
 	}
 }
 
+.hover-bg-cloud{
+	&:hover{
+	background-color:#ebf0f1;
+	}
+}
+
 .silver{
 	color:#bdc4c8;
 }
@@ -708,6 +848,12 @@
 .hover-silver{
 	&:hover{
 	color:#bdc4c8;
+	}
+}
+
+.hover-bg-silver{
+	&:hover{
+	background-color:#bdc4c8;
 	}
 }
 
@@ -745,6 +891,12 @@
 	color:#23485f;
 	}
 }
+.hover-bg-wetasphalt{
+	&:hover{
+	background-color:#23485f;
+	}
+}
+
 .active-wetasphalt{
 	&:active{
 	color:#23485f;
@@ -764,6 +916,11 @@
 .hover-midnightblue{
 	&:hover{
 	color:#1e3c50;
+}
+}
+.hover-bg-midnightblue{
+	&:hover{
+	background-color:#1e3c50;
 }
 }
 
@@ -799,6 +956,11 @@
 	color:#8fa7a7;
 }
 }
+.hover-bg-concret{
+	&:hover{
+	background-color:#8fa7a7;
+}
+}
 .active-concret{
 	&:active{
 	color:#8fa7a7;
@@ -826,6 +988,11 @@
 	color:#798d8e;
 }
 }
+.hover-bg-asbestos{
+	&:hover{
+	background-color:#798d8e;
+}
+}
 
 .visited-asbestos{
 	&:visited{
@@ -851,6 +1018,11 @@
 .hover-greenprisma{
 	&:hover{
 	color:#a7c001 !important;
+}
+}
+.hover-bg-greenprisma{
+	&:hover{
+	background-color:#a7c001 !important;
 }
 }
 
@@ -1003,6 +1175,12 @@
 	}
 }
 
+.hover-bg-200freshfruit{
+	&:hover{
+	background-color:#b4ac01 !important;
+	}
+}
+
 .active-200freshfruit{
 	&:active{
 	color:#b4ac01 !important;
@@ -1032,6 +1210,12 @@
 .hover-loversaremyfruits{
 	&:hover{
 	color:#ecbb09 !important;
+	}
+}
+
+.hover-bg-loversaremyfruits{
+	&:hover{
+	background-color:#ecbb09 !important;
 	}
 }
 
@@ -1075,6 +1259,12 @@
 	}
 }
 
+.hover-bg-passionforcolour{
+	&:hover{
+	background-color:#e86e1b !important;
+	}
+}
+
 .visited-passionforcolour{
 	&:visited{
 	color:#e86e1b !important;
@@ -1100,6 +1290,11 @@
 .hover-fruitsofpassion{
 	&:hover{
 	color:#d41e46 !important;
+}
+}
+.hover-bg-fruitsofpassion{
+	&:hover{
+	background-color:#d41e46 !important;
 }
 }
 
@@ -1143,6 +1338,12 @@
 	}
 }
 
+.hover-bg-thankyouall{
+	&:hover{
+	background-color:#1b1521 !important;
+	}
+}
+
 .visited-thankyouall{
 	&:visited{
 	color:#1b1521 !important;
@@ -1180,6 +1381,11 @@
 	color:#1c676c !important;
 	}
 }
+.hover-bg-adreamincolor{
+	&:hover{
+	background-color:#1c676c !important;
+	}
+}
 
 .visited-adreamincolor{
 	&:visited{
@@ -1203,6 +1409,11 @@
 .hover-adreamingreen{
 	&:hover{
 	color:#4f964a !important;
+}
+}
+.hover-bg-adreamingreen{
+	&:hover{
+	background-color:#4f964a !important;
 }
 }
 .active-adreamingreen{
@@ -1234,6 +1445,13 @@
 	color:#88c426 !important;
 	}
 }
+
+.hover-bg-adreaminlime{
+	&:hover{
+	background-color:#88c426 !important;
+	}
+}
+
 .active-adreaminlime{
 	&:active{
 	color:#88c426 !important;
@@ -1261,6 +1479,12 @@
 .hover-adreamingrellow{
 	&:hover{
 	color:#BEF202 !important;
+}
+}
+
+.hover-bg-adreamingrellow{
+	&:hover{
+	background-color:#BEF202 !important;
 }
 }
 
@@ -1310,6 +1534,12 @@
 	}
 }
 
+.hover-bg-dreambase{
+	&:hover{
+	background-color:#EAFDE6 !important;
+	}
+}
+
 
 
 .bg-dreambase{
@@ -1331,6 +1561,11 @@
 .hover-ubuntu_darkgrey{
 	&:hover{
 	color:#5d5d5d !important;
+	}
+}
+.hover-bg-ubuntu_darkgrey{
+	&:hover{
+	background-color:#5d5d5d !important;
 	}
 }
 
@@ -1380,6 +1615,11 @@
 	}
 }
 
+.hover-bg-ubuntu_lightgrey{
+	&:hover{
+	background-color:#888888 !important;
+	}
+}
 
 
 .bg-ubuntu_lightgrey{
@@ -1399,6 +1639,12 @@
 .hover-ubuntu_inkstone{
 	&:hover{
 	color:#3b3b3b !important;
+	}
+}
+
+.hover-bg-ubuntu_inkstone{
+	&:hover{
+	background-color:#3b3b3b !important;
 	}
 }
 
@@ -1437,6 +1683,11 @@
 	color:#5d5d5d !important;
 }
 }
+.hover-bg-ubuntu_slate{
+	&:hover{
+	background-color:#5d5d5d !important;
+}
+}
 .visited-ubuntu_slate{
 	&:visited{
 	color:#5d5d5d !important;
@@ -1460,6 +1711,11 @@
 .hover-ubuntu_graphite{
 	&:hover{
 	color:#666666 !important;
+}
+}
+.hover-bg-ubuntu_graphite{
+	&:hover{
+	background-color:#666666 !important;
 }
 }
 
@@ -1494,6 +1750,11 @@
 	color:#888888 !important;
 }
 }
+.hover-bg-ubuntu_ash{
+	&:hover{
+	background-color:#888888 !important;
+}
+}
 
 .active-ubuntu_ash{
 	&:active{
@@ -1523,6 +1784,12 @@
 .hover-ubuntu_slik{
 	&:hover{
 	color:#cdcdcd !important;
+}
+}
+
+.hover-bg-ubuntu_slik{
+	&:hover{
+	background-color:#cdcdcd !important;
 }
 }
 
@@ -1557,6 +1824,11 @@
  .hover-ubuntu_porcelain{
  	&:hover{
 	color:#f7f7f7 !important;
+	}
+ }
+.hover-bg-ubuntu_porcelain{
+ 	&:hover{
+	background-color:#f7f7f7 !important;
 	}
  }
 
@@ -1597,6 +1869,11 @@
 	color:#fd494a !important;
 	}
 }
+.hover-bg-ubuntu_red{
+	&:hover{
+	background-color:#fd494a !important;
+	}
+}
 .visited-ubuntu_red{
 	&:visited{
 	color:#fd494a !important;
@@ -1633,6 +1910,11 @@
 	color:#ed3247 !important;
 }
 }
+.hover-bg-ubuntu_negativered{
+	&:hover{
+	background-color:#ed3247 !important;
+}
+}
 
 
 .bg-ubuntu_negativered{
@@ -1653,6 +1935,11 @@
 .hover-ubuntu_orange{
 	&:hover{
 	color:#de4815 !important;
+	}
+}
+.hover-bg-ubuntu_orange{
+	&:hover{
+	background-color:#de4815 !important;
 	}
 }
 
@@ -1698,6 +1985,12 @@
 }
 }
 
+.hover-bg-ubuntu_focusorange{
+	&:hover{
+	background-color:#ea5421 !important;
+}
+}
+
 
 .ubuntu_focusorange{
 	background-color:#ea5421 !important;
@@ -1710,6 +2003,12 @@
 }
 
 .hover-ubuntu_focusorange{
+	&:hover{
+	color:#ea5421 !important;
+	}
+}
+
+.hover-bg-ubuntu_focusorange{
 	&:hover{
 	background-color:#ea5421 !important;
 	}
@@ -1742,6 +2041,11 @@
 	color:#3fb14f !important;
 	}
 }
+.hover-bg-ubuntu_green{
+	&:hover{
+	background-color:#3fb14f !important;
+	}
+}
 .active-ubuntu_green{
 	&:active{
 	color:#3fb14f !important;
@@ -1770,6 +2074,12 @@
 .hover-ubuntu_positivegreen{
 	&:hover{
 	color:#3fb350 !important;
+	}
+}
+
+.hover-bg-ubuntu_positivegreen{
+	&:hover{
+	background-color:#3fb350 !important;
 	}
 }
 
@@ -1811,6 +2121,11 @@
 	color:#f89b0f !important;
 }
 }
+.hover-bg-ubuntu_yellow{
+	&:hover{
+	background-color:#f89b0f !important;
+}
+}
 
 .active-ubuntu_yellow{
 	&:active{
@@ -1836,6 +2151,11 @@
 .hover-ubuntu_blue{
 	&:hover{
 	color:#1ab6ef !important;
+	}
+}
+.hover-bg-ubuntu_blue{
+	&:hover{
+	background-color:#1ab6ef !important;
 	}
 }
 
@@ -1869,6 +2189,11 @@
 	color:#19b6ed !important;
 }
 }
+.hover-bg-ubuntu_activityblue{
+	&:hover{
+	background-color:#19b6ed !important;
+}
+}
 
 .visited-ubuntu_activityblue{
 	&:visited{
@@ -1899,6 +2224,11 @@
 .hover-ubuntu_purple{
 	&:hover{
 	color:#762572 !important;
+}
+}
+.hover-bg-ubuntu_purple{
+	&:hover{
+	background-color:#762572 !important;
 }
 }
 
@@ -1938,6 +2268,12 @@
 .hover-ubuntu_jet{
 	&:hover{
 	color:#111111 !important;
+}
+}
+
+.hover-bg-ubuntu_jet{
+	&:hover{
+	background-color:#111111 !important;
 }
 }
 
